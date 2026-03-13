@@ -25,3 +25,15 @@ The dataset used is `HousingData.csv`, which includes features such as:
 3. Install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
+   ells to see the analysis and model results.
+
+📊 Key Results
+Data Cleaning: Performed data cleaning and handled missing values effectively.
+
+Exploratory Data Analysis (EDA): Visualized correlations between housing features using Heatmaps.
+
+Model Training: Trained a Linear Regression model and evaluated its performance on the dataset.
+
+Author: Rofaida
+
+Internship: Codveda
