@@ -1,17 +1,30 @@
-# Codveda-Internship-Tasks
-# House Price Prediction Project 🏠
+# 🤖 Codveda Machine Learning Internship - Level 1 Tasks
 
-This project is part of the **Codveda Internship Tasks**. It focuses on building a machine learning model to predict housing prices using the Boston Housing Dataset.
+This repository contains my projects for Level 1 of the Machine Learning Internship at **@Codveda**. It covers two fundamental types of Machine Learning: **Regression** and **Classification**.
 
-## 📋 Project Overview
-The goal of this project is to perform Exploratory Data Analysis (EDA) and implement a **Linear Regression** model to understand the relationship between various house features and their market price.
+---
 
-## 📁 Dataset
-The dataset used is `HousingData.csv`, which includes features such as:
-* **CRIM**: Per capita crime rate by town.
-* **RM**: Average number of rooms per dwelling.
-* **AGE**: Proportion of owner-occupied units built prior to 1940.
-* **MEDV**: Median value of owner-occupied homes (Target Variable).
+## 📁 Project 1: Boston Housing Price Prediction (Regression) 🏠
+**Goal:** Build a model to predict housing prices using the Boston Housing Dataset.
+
+### 📋 Highlights:
+* **Exploratory Data Analysis (EDA):** Visualized correlations using Heatmaps.
+* **Data Cleaning:** Handled missing values and identified outliers.
+* **Model:** Implemented **Linear Regression**.
+* **Key Features:** CRIM (Crime rate), RM (Rooms), AGE, and MEDV (Price).
+
+---
+
+## 📁 Project 2: Iris Flower Classification (Classification) 🌸
+**Goal:** Classify flower species (Setosa, Versicolor, Virginica) based on physical measurements.
+
+### 📋 Highlights:
+* **EDA:** Used **Pairplots** to visualize species clusters and distribution.
+* **Model:** Implemented **K-Nearest Neighbors (KNN)** Classifier.
+* **Optimization:** Tested multiple K-values to find the highest accuracy.
+* **Evaluation:** Achieved **100% Accuracy**, verified by a Confusion Matrix.
+
+---
 
 ## 🛠️ Technologies Used
 * **Python** (Core language)
@@ -21,18 +34,11 @@ The dataset used is `HousingData.csv`, which includes features such as:
 
 ## 🚀 How to Run
 1. Clone the repository.
-2. Ensure you have Jupyter Notebook or Google Colab installed.
+2. Ensure you have Jupyter Notebook or VS Code installed.
 3. Install the required libraries:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
-   ells to see the analysis and model results.
-
-📊 Key Results
-Data Cleaning: Performed data cleaning and handled missing values effectively.
-
-Exploratory Data Analysis (EDA): Visualized correlations between housing features using Heatmaps.
-
-Model Training: Trained a Linear Regression model and evaluated its performance on the dataset.
+   Run the notebooks: boston_housing.ipynb and iris_classification.ipynb.
 
 Author: Rofaida
 
